@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## vue+webpack,京东金融spa
 
-You can use the [editor on GitHub](https://github.com/zhanpeipei/jd-finance/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+> 这个作品是通过vue-cli自动构建webpack打造的京东金融单页面作品，为手机自适应项目，请用手机观看。（可扫描二维码体验读）
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<img src="./wx.png” width="280" height="280" />
 
-### Markdown
+> 这个作品中主要用到了以下几个技术：
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. 通过vue中的vue-router实现单页面跳转；
 
-```markdown
-Syntax highlighted code block
+2.通过hotcss.js实现viewport自动计算；
 
-# Header 1
-## Header 2
-### Header 3
+3. 通过postcss-px2rem实现自适应；
 
-- Bulleted
-- List
+4. vue-router的mode为默认设置：hash;
 
-1. Numbered
-2. List
+> 以下是我对这次学习过程的一个总结：
 
-**Bold** and _Italic_ and `Code` text
+1. 在vue-router注册路由中，一个地址最多可以注册三个组件；
 
-[Link](url) and ![Image](src)
-```
+2. hotcss可以在entry中进行设置导入；
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+3. postcss-px2rem中的remUnit代表的是计算根元素字体大小的依据，可通过查看hotcss在对应大小下的根元素字体大小来设置；
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zhanpeipei/jd-finance/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+在4. router-link上添加本组件事件，需要添加.native修饰符；
