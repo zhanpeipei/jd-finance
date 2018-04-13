@@ -2,7 +2,7 @@
 
 > 这个作品是通过vue-cli自动构建webpack打造的京东金融单页面作品，为手机自适应项目，请用手机观看。（可扫描二维码体验读）
 
-<img src="./wx.png” width="160" height="160" />
+<img src="jd-finance/wx.png” width="160" height="160" />
 
 > 这个作品中主要用到了以下几个技术：
 
