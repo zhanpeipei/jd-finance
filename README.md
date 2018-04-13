@@ -1,8 +1,7 @@
 ## vue+webpack,京东金融spa
 
 > 这个作品是通过vue-cli自动构建webpack打造的京东金融单页面作品，为手机自适应项目，请用手机观看。（可扫描二维码体验读）
-
-![Image text]（https://github.com/zhanpeipei/jd-finance/blob/master/wx.png）
+![Image text](https://github.com/zhanpeipei/jd-finance/blob/master/wx.pn)
 
 > 这个作品中主要用到了以下几个技术：
 
